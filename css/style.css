@@ -369,6 +369,23 @@ footer {
         flex-direction: column;
     }
 
+    .service-features-section {
+       flex-direction: column;
+       padding: 20px;
+    }
+
+    .sevices-content{
+        width: 100%;
+    }
+    
+    .sevices-image {
+        width: 100%;
+    } 
+
+    .ten-years-badge{
+        left: 25%;
+    }
+
 }
 
 
@@ -423,6 +440,22 @@ footer {
 
     .sponsors-image-wrapper {
         flex-direction: column;
+    }
+
+    .service-features-section {
+        flex-direction: column;
+        padding: 20px;
+     }
+
+     .sevices-content{
+        width: 100%;
+    }
+    
+    .sevices-image {
+        width: 100%;
+    } 
+    .ten-years-badge{
+        left: 25%;
     }
 }
 

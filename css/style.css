@@ -99,6 +99,50 @@ nav ul li a {
     margin-top: 20px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.features-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.teams-image-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.features-content-wrapper {
+    padding: 0 70px;
+}
+
+.feature-title {
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.text-black {
+    color:#131313;
+    font-weight: 700;
+}
+.text-yellow {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-description {
+    margin: 24px 0;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem; 
+}
 
 
 
@@ -114,37 +158,46 @@ nav ul li a {
 
 
 
-/* RESPONSIVE CSS STYLE */
+/* RESPONSIVE CSS STYLE START*/
 
 /* SM Device or Mobile Device*/
 @media screen and (max-width:576px) {
     header {
         padding: 10px 20px;
     }
+
     nav {
         flex-direction: column;
     }
+
     .nav-title {
         margin: 30px 0;
     }
 }
 
 /* MD Device or Tablet Device*/
-@media screen and (min-width:576px) and (max-width:960px){
+@media screen and (min-width:576px) and (max-width:960px) {
     header {
         padding: 20px 40px;
     }
+
     nav {
         flex-direction: column;
     }
+
     .nav-title {
         margin: 30px 0;
     }
 }
 
 /* LG Device */
-@media screen and (min-width:960px) /*and (max-width:1024px)*/ {
+@media screen and (min-width:960px)
+
+/*and (max-width:1024px)*/
+    {
     header {
         padding: 20px 40px;
     }
 }
+
+/* RESPONSIVE CSS STYLE END*/

@@ -1,6 +1,8 @@
 /* Work Sans Font From Googlew Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
+/* COMMON CSS */
 * {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
@@ -10,4 +12,79 @@
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.section-title {
+    color: #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+}
+
+/* HEADER CSS */
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+    gap: 35px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }

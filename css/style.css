@@ -145,6 +145,92 @@ main {
     line-height: 1.5rem;
 }
 
+.service-features-section {
+    padding: 70px 0;
+    display: flex;
+    gap: 100px;
+}
+
+.sevices-content{
+    width: 50%;
+}
+
+.sevices-image {
+    width: 50%;
+} 
+
+.sevices-image img {
+  height: 100%;  
+}
+
+.sevices-content .section-title {
+    text-align: left;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.sevices-content .section-description {
+    text-align: left;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.service-card {
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+
+.service-card h4 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.service-card p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
+.sevices-image {
+    position: relative;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    text-align: center;
+}
+
+.ten-years-badge h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    /* 107.692% */
+}
+
+.ten-years-badge p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 .facts {
     padding: 70px 0;
 }
@@ -222,7 +308,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     padding: 40px 0;
-    color:#424242;
+    color: #424242;
     font-size: 1.25rem;
     font-weight: 400;
     border-radius: 8px;
@@ -275,12 +361,12 @@ footer {
     }
 
     .facts-card-wrapper {
-       flex-direction: column;
-       row-gap: 20px;
+        flex-direction: column;
+        row-gap: 20px;
     }
 
     .sponsors-image-wrapper {
-       flex-direction: column;
+        flex-direction: column;
     }
 
 }
@@ -325,18 +411,19 @@ footer {
     .facts-card-wrapper {
         flex-direction: column;
         row-gap: 20px;
-     }
+    }
 
-     .facts-title{
+    .facts-title {
         padding: 0 70px;
-     }
-     .facts-description {
-        padding-left: 70px;
-     }
+    }
 
-     .sponsors-image-wrapper {
+    .facts-description {
+        padding-left: 70px;
+    }
+
+    .sponsors-image-wrapper {
         flex-direction: column;
-     }
+    }
 }
 
 /* LG Device */

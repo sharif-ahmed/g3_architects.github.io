@@ -128,9 +128,10 @@ main {
 }
 
 .text-black {
-    color:#131313;
+    color: #131313;
     font-weight: 700;
 }
+
 .text-yellow {
     color: #FF900E;
     font-weight: 700;
@@ -141,10 +142,92 @@ main {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem; 
+    line-height: 1.5rem;
+}
+
+.facts {
+    padding: 70px 0;
+}
+
+.facts-title {
+    text-align: left;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.facts-description {
+    text-align: left;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 1.8rem;
+    /* 162.5% */
 }
 
 
+.facts-card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 145px;
+}
+
+.facts-card-wrapper .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px;
+}
+
+.card img {
+    width: 45px;
+    height: 45px;
+}
+
+.card h2 {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.card p {
+    color: #727272;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sponsors-section {
+    padding: 70px 0;
+}
+
+.sponsors-image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+.sponsors-image-wrapper img {
+    width: 165px;
+}
+
+footer {
+    padding: 120px 40px;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    color:#424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
 
 
 
@@ -162,6 +245,10 @@ main {
 
 /* SM Device or Mobile Device*/
 @media screen and (max-width:576px) {
+    main {
+        max-width: 450px;
+    }
+
     header {
         padding: 10px 20px;
     }
@@ -173,12 +260,46 @@ main {
     .nav-title {
         margin: 30px 0;
     }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    .features-content-wrapper {
+        margin-top: 40px;
+    }
+
+    .teams-image-wrapper {
+        padding: 50px;
+        grid-template-columns: 1fr;
+    }
+
+    .facts-card-wrapper {
+       flex-direction: column;
+       row-gap: 20px;
+    }
+
+    .sponsors-image-wrapper {
+       flex-direction: column;
+    }
+
 }
+
+
+
+
+
+
+
 
 /* MD Device or Tablet Device*/
 @media screen and (min-width:576px) and (max-width:960px) {
     header {
         padding: 20px 40px;
+    }
+
+    main {
+        max-width: 840px;
     }
 
     nav {
@@ -188,6 +309,34 @@ main {
     .nav-title {
         margin: 30px 0;
     }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    .features-content-wrapper {
+        margin-top: 40px;
+    }
+
+    .teams-image-wrapper {
+        padding: 50px;
+    }
+
+    .facts-card-wrapper {
+        flex-direction: column;
+        row-gap: 20px;
+     }
+
+     .facts-title{
+        padding: 0 70px;
+     }
+     .facts-description {
+        padding-left: 70px;
+     }
+
+     .sponsors-image-wrapper {
+        flex-direction: column;
+     }
 }
 
 /* LG Device */
@@ -197,6 +346,10 @@ main {
     {
     header {
         padding: 20px 40px;
+    }
+
+    .facts-card-wrapper {
+        gap: 15px;
     }
 }
 
